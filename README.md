@@ -1,6 +1,4 @@
-# PathFinder
-
-## University - Bachelor's Degree
+# Path Finder
 
 ## Project Definition
 
@@ -13,9 +11,9 @@ In the `Main.java` file, you can switch between two modes:
   
 - **Current Version:** Set `private static boolean mode_2020 = false;` to run the improved version of the project, which utilizes both Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms (with `PathCounter.java` and `PathCoordinates.java` no longer needed in this version). This version highlights the shortest path among all possible paths found.
 
-## Overview - Old Version
+## 🔹Overview - Old Version
 
-### PathCounter.java
+### ✅PathCounter.java
 
 The `PathCounter` class provides a method to count the number of unique paths in a grid from the top-left corner to the bottom-right corner while avoiding obstacles.
 
@@ -37,7 +35,7 @@ The `PathCounter` class provides a method to count the number of unique paths in
 4. **Result:**
    - The bottom-right cell (`numberOfPah[row-1][column-1]`) contains the total number of unique paths.
 
-### PathCoordinates.java
+### ✅PathCoordinates.java
 
 This program generates the coordinates of paths from the top-left corner to the bottom-right corner of a grid while avoiding obstacles (`*`). It uses a stack-based backtracking approach to find the specified number of paths. Through the process of creating this algorithm, I realized that it naturally embodies the principles of DFS. Although I was not initially aware of DFS, the structure of my solution reflects key aspects of this algorithm.
 
@@ -54,9 +52,9 @@ This program generates the coordinates of paths from the top-left corner to the 
 4. **Result:**
    - The algorithm stores the generated paths in `coordinatesList`, which is returned as a `ListView` of strings representing the paths.
 
-## Overview - New Version
+## 🔹Overview - New Version
 
-### AllPathsDFS.java
+### ✅AllPathsDFS.java
 
 This program finds all possible paths from the top-left corner to the bottom-right corner of a grid while avoiding obstacles (`*`). It uses a Depth-First Search (DFS) algorithm to explore all valid paths.
 
@@ -74,7 +72,7 @@ This program finds all possible paths from the top-left corner to the bottom-rig
 3. **Result:**
    - The algorithm returns a list of all valid paths from the start to the end cell.
 
-### ShortestPathBFS.java
+### ✅ShortestPathBFS.java
 
 This program finds the shortest path from the top-left corner to the bottom-right corner of a grid while avoiding obstacles (`*`). It uses the Breadth-First Search (BFS) algorithm to determine the shortest path.
 
