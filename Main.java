@@ -107,6 +107,11 @@ import javafx.scene.Scene;
          int i_selectedCell_Row = GridPane.getRowIndex(selectedCell);
          int j_selectedCell_Column = GridPane.getColumnIndex(selectedCell);
          ImageView selectedCell_Image = (ImageView) selectedCell.getGraphic();
+
+         if ((i_selectedCell_Row == 0 && j_selectedCell_Column == 0) || // Person cell
+        (i_selectedCell_Row == x_row - 1 && j_selectedCell_Column == y_column - 1)) { // Home cell
+        return; 
+        }
  
          if (selectedCell.getGraphic() != null && selectedCell_Image.getImage().equals(virusImage)) {
              selectedCell.setGraphic(null);
@@ -114,7 +119,8 @@ import javafx.scene.Scene;
          } else {
              selectedCell.setGraphic(new ImageView(virusImage));
              table_Character[i_selectedCell_Row][j_selectedCell_Column] = '*';
-         }
+         }   
+         
      }
  
 
