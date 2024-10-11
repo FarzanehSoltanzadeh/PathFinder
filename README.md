@@ -3,6 +3,7 @@
 ## Project Definition
 
 This project originated as an assignment during the COVID-19 pandemic in a "Basics of Compounds" class. The goal was to find the shortest path on a grid where only downward and rightward movements were allowed. I expanded this initial idea by introducing obstacles (representing viruses) in the middle of the path and aimed to find all possible safe routes from the starting point to the destination.
+
 Below is a screenshot of the program environment before any path calculation is performed, with randomly placed viruses:
 ![Path Finder Raw Environment](pics/programEnvir.png)
 
