@@ -1,0 +1,26 @@
+.root{
+    -fx-background-color: #393939;
+}
+.text-field{
+    -fx-font-size: 15;
+    -fx-background-color: #FFDAB9;
+    -fx-text-fill: #000000;
+}
+.label{
+    -fx-text-fill: #ffff;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-font-family: "A Iranian Sans";
+}
+#infoLabel-label{
+    -fx-font-size: 14;
+    -fx-text-fill: #ffff;
+}
+.button{
+    -fx-background-color: #0e5aa9;
+}
+#confirm-button{
+    -fx-background-color: linear-gradient(#B22222, #c64f60);
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
