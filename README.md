@@ -11,7 +11,7 @@ In the `Main.java` file, you can switch between two modes:
   
 - **Current Version:** Set `private static boolean mode_2020 = false;` to run the improved version of the project, which utilizes both Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms (with `PathCounter.java` and `PathCoordinates.java` no longer needed in this version). This version highlights the shortest path among all possible paths found.
 
-##🔹Overview - Old Version
+## 🔹Overview - Old Version
 
 ### ☑️PathCounter.java
 
@@ -52,7 +52,7 @@ This program generates the coordinates of paths from the top-left corner to the 
 4. **Result:**
    - The algorithm stores the generated paths in `coordinatesList`, which is returned as a `ListView` of strings representing the paths.
 
-##🔹Overview - New Version
+## 🔹Overview - New Version
 
 ### ☑️AllPathsDFS.java
 
